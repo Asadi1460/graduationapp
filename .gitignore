@@ -1,0 +1,15 @@
+# Ignore Python cache and virtual env
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv_app/
+
+# Ignore Jupyter notebooks checkpoints (if any)
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Streamlit config (optional)
+.streamlit/
